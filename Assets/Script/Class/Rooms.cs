@@ -16,6 +16,7 @@ List<TIPODISTANZA> mappa = new List<TIPODISTANZA>();
         mappa.Add(nuovastanza);
         AssegnoTipoStanza();
         Debug.log ( "è stata aggiunta una nuova stanza: " + nome + posizione);
+        //ok;
     }
 
     private void AssegnoTipoStanza()
